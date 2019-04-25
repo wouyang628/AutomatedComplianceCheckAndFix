@@ -1,7 +1,7 @@
 # Automated Network Configuration Compliance Check And Fix
 Automated Network Configuration Compliance Check And Fix
 
-In general, each organization has its own golden config. However, when a device is actually configured, it may not comply with the golden config.
+In general, every company/operator has its own golden config. However, when a device is actually configured, it may not comply with the golden config.
 
 By utilizing Juniper Northstar’s compliance check feature. We can automatically scan the network configuration to find uncomplied configuration based on user defined templates and then extract the information and utilize Juniper PyEZ to apply the correct configuration
 
