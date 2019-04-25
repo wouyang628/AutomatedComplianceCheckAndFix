@@ -1,0 +1,21 @@
+# IP/MPLSView compliance assessment project file
+# Version 6.1.0
+# Automatically Generated: Fri Mar 22 14:50:04 EDT 2019
+
+@define configurations dir=/opt/northstar/data/collection/cat/config/
+172.16.18.101.SFO.cfg,name=SFO,os=JUNOS
+172.16.18.102.vmx102.cfg,name=vmx102,os=JUNOS
+172.16.18.103.vmx103.cfg,name=vmx103,os=JUNOS
+172.16.18.104.vmx104.cfg,name=vmx104,os=JUNOS
+172.16.18.105.vmx105.cfg,name=vmx105,os=JUNOS
+172.16.18.106.vmx106.cfg,name=vmx106,os=JUNOS
+172.16.18.107.vmx107.cfg,name=vmx107,os=JUNOS
+
+@define testcases
+isis_rsvp
+
+@define templates
+/opt/northstar/data/collection/cat/template/isis_rsvp/Junos/isis_rsvp.tpl,type=Junos,alias=isis_rsvp
+
+@define options
+output=/opt/northstar/data/collection/cat/testing

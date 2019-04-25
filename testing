@@ -1,0 +1,6 @@
+## testing
+## Report Date=2019-03-23 08:38, Runcode= 
+Message,Severity,Hostname,Config File,Block,Lines,Template,Rule,Template Lines,Template Line #,Category,Vendor,OS,Version
+[ge-0/1/1.0],INFO,SFO,172.16.18.101.SFO.cfg,,,isis_rsvp.tpl,isis_rsvp_check,9-24,23,,Juniper,JUNOS,18.2R1.2
+"[ge-0/0/2.0, ge-0/1/8.0]",INFO,vmx103,172.16.18.103.vmx103.cfg,,,isis_rsvp.tpl,isis_rsvp_check,9-24,23,,Juniper,JUNOS,18.2R1.2
+[ge-0/1/8.0],INFO,vmx107,172.16.18.107.vmx107.cfg,,,isis_rsvp.tpl,isis_rsvp_check,9-24,23,,Juniper,JUNOS,18.2R1.2

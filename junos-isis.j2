@@ -1,0 +1,8 @@
+protocols {
+    isis { 
+        {%- for item in interfaces %} 
+        interface {{ item }}; 
+        {% endfor -%}    
+    }
+}
+
